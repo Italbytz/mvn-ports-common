@@ -1,1 +1,0 @@
-# explicitarchitecture-bintray

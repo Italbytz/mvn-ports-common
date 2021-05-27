@@ -1,4 +1,4 @@
-package de.hshl.isd.explicitarchitecture
+package io.github.robinnunkesser.explicitarchitecture
 
 /**
  *

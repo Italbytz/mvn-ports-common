@@ -1,4 +1,4 @@
-package io.github.robinnunkesser.explicitarchitecture
+package io.github.italbytz.ports.common
 
 /**
  *

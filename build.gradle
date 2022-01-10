@@ -33,8 +33,8 @@ signing {
     sign configurations.archives
 }
 
-group = "io.github.robinnunkesser"
-archivesBaseName = "explicitarchitecture"
+group = "io.github.italbytz.ports"
+archivesBaseName = "common"
 version = "0.1.0"
 
 uploadArchives {
@@ -51,15 +51,15 @@ uploadArchives {
             }
 
             pom.project {
-                name 'Explicit Architecture'
+                name 'Common Ports'
                 packaging 'jar'
-                description 'A set of helpful interfaces to use with Explicit Architecture.'
-                url 'https://github.com/RobinNunkesser/explicitarchitecture-mvn'
+                description 'A set of helpful interfaces to use with Hexagonal Architecture.'
+                url 'https://github.com/Italbytz/mvn-ports-common'
 
                 scm {
-                    connection 'scm:git:git://github.com/RobinNunkesser/explicitarchitecture-mvn.git'
-                    developerConnection 'scm:git:ssh://github.com/RobinNunkesser/explicitarchitecture-mvn.git'
-                    url 'https://github.com/RobinNunkesser/explicitarchitecture-mvn.git'
+                    connection 'scm:git:git://github.com/Italbytz/mvn-ports-common.git'
+                    developerConnection 'scm:git:ssh://github.com/Italbytz/mvn-ports-common.git'
+                    url 'https://github.com/Italbytz/mvn-ports-common.git'
                 }
 
                 licenses {

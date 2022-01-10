@@ -15,3 +15,5 @@
 local.properties
 /publish.sh
 /gradle.properties
+.gradle
+build

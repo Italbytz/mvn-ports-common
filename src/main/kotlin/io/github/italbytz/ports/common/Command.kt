@@ -6,15 +6,11 @@ package io.github.italbytz.ports.common
 interface Command<InDTOType, OutDTOType> {
 
     /**
-     * Executes the UseCase.
+     * Executes the UseCase asynchronously.
      *
      * @param inDTO encapsulated inDTO parameters.
-     * @param successHandler the closure to use for a successful result.
-     * @param errorHandler the closure to use for an unsuccessful result.
+     * @return A return value of type OutDTOType.
      */
-    fun execute(
-        inDTO: InDTOType, successHandler: (success: OutDTOType) -> Unit,
-        errorHandler: (error: Throwable) -> Unit
-    )
+    suspend fun execute(inDTO: InDTOType) : OutDTOType
 }
 

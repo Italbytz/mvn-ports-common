@@ -1,8 +1,5 @@
 package io.github.italbytz.ports.common
 
-/**
- *
- */
 interface Command<InDTOType, OutDTOType> {
 
     /**
